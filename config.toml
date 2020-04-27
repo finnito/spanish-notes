@@ -1,0 +1,42 @@
+baseurl                 = "https://spanish.finn.lesueur.nz"
+contentdir              = "content"
+layoutdir               = "layouts"
+publishdir              = "public"
+title                   = "Finn LeSueur"
+canonifyurls            = true
+uglyurls                = false
+staticDir               = ["static"]
+
+DefaultContentLanguage  = "en"
+LanguageCode            = "en"
+theme                   = "notes"
+metaDataFormat          = "yaml"
+pygmentsUseClasses      = true
+pygmentCodeFences       = true
+
+[markup]
+  [markup.tableOfContents]
+    ordered = true
+    endLevel = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[Params]
+  subtitle      = "Finn LeSueur on the internet."
+  logo          = "favicon.png"
+  favicon       = "favicon.png"
+  dateFormat    = "January 2, 2006"
+  commit        = true
+  rss           = true
+  comments      = false
+
+[Author]
+  name    = "Finn LeSueur"
+  email   = "finn@lesueur.nz"
+  gitlab  = "Finnito"
+
+[sitemap]
+  changefreq  = "weekly"
+  filename    = "sitemap.xml"
+  priority    = 0.5

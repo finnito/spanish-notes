@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+    <p><strong>Updated:</strong> {{ if .Lastmod }}<time>{{ .PublishDate.Format "2 Jan 2006" }}</time>{{ end }} by {{ .Site.Author.name }}</p>
+    <p>{{ .Description }}</p>
+    {{ .TableOfContents }}
+    {{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}

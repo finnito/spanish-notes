@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.png">
+    <style>{{ readFile "/themes/notes/static/css/style.css" | safeCSS }}</style>
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+    {{ if .Params.Description }}
+      <meta name="description" content="{{ .Params.Description }}">
+      <meta property="og:description" content="{{ .Params.Description }}">
+      <meta property="twitter:description" content="{{ .Params.Description }}">
+    {{ end }}
+    {{ if .Params.metaImageURL }}
+      <meta property="og:image" content="{{ .Params.metaImageURL | relURL }}">
+      <meta property="twitter:image" content="{{ .Params.metaImageURL | relURL }}">
+    {{ end }}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+  </head>
+  <body>
