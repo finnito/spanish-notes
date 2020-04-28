@@ -16,12 +16,12 @@ In general the following are true:
 
 ## Present Tense
 
-|   | AR | ER | IR |
-|---|---|---|---|
-| Yo | o | o | o |
-| El/Ella | as | es | es |
-| Tu/Usted| a | e | e |
-| Nosotros | amos | emos | imos |
-| Vosotros | ais | eis | is |
-| Ellos/Ellas/Ustedes | an | en | en |
+|                      | AR    | ER    | IR    |
+|:---------------------|:------|:------|:------|
+| Yo                   | o     | o     | o     |
+| El/Ella              | as    | es    | es    |
+| Tu/Usted             | a     | e     | e     |
+| Nosotros             | amos  | emos  | imos  |
+| Vosotros             | ais   | eis   | is    |
+| Ellos/Ellas/Ustedes  | an    | en    | en    |
 
