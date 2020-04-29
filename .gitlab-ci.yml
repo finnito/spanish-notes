@@ -15,7 +15,7 @@ deploy:
   - mkdir -p ~/.ssh
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
-    - ssh finn@172.105.169.195 "cd /srv/spanish.finn.lesueur.nz/ && git pull origin master && hugo && exit"
+    - ssh finn@172.105.169.195 "cd /srv/spanish.finn.lesueur.nz/ && git pull origin master && hugo --minify && exit"
   only:
     - master
   artifacts:

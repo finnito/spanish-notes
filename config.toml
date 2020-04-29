@@ -13,6 +13,7 @@ theme                   = "notes"
 metaDataFormat          = "yaml"
 pygmentsUseClasses      = true
 pygmentCodeFences       = true
+disableKinds            = ["taxonomyTerm"]
 
 [markup]
   [markup.tableOfContents]

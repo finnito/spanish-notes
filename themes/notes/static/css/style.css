@@ -4,13 +4,38 @@ html {
     color: #2f3542;
 }
 
-hr { border: none; background-color: lightgrey; height: 2px;}
+hr {
+    border: none;
+    background-color: lightgrey;
+    height: 2px;
+}
 
-table { border: 1px solid lightgrey; border-collapse: collapse; text-align: left;}
-td:not(:last-child), th:not(:last-child) { border-right: 1px solid lightgrey; }
-tr:not(:last-child), th:not(:last-child) { border-bottom: 1px solid lightgrey; }
-tr td:first-child { font-weight: 700; }
-td, th{ padding: 0.25rem; }
+table {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    text-align: left;
+    white-space: nowrap;
+    overflow-x: scroll;
+    max-width: 100%;
+    display: inline-block;
+}
+
+thead { background-color: whitesmoke; }
+
+td:not(:last-child),
+th:not(:last-child) {
+    border-right: 1px solid lightgrey;
+}
+
+thead tr,
+tr:not(:last-of-type) {
+    border-bottom: 1px solid lightgrey;
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
 
 @media (min-width: 600px) {
     body {
@@ -24,7 +49,18 @@ td, th{ padding: 0.25rem; }
         background-color: #2f3542;
         color: #ffffff;
     }
-    a { color: #00a8ff; }
-    a:visited { color: #9c88ff; }
-    a:active { color: #e84118;}
+
+    a {
+        color: #00a8ff;
+    }
+
+    a:visited {
+        color: #9c88ff;
+    }
+
+    a:active {
+        color: #e84118;
+    }
+
+    thead { background-color: #1e272e; color: white;}
 }
