@@ -81,15 +81,22 @@ Feminine nouns typically end in
 | el panda     |             |             |               |
 | el prisma    |             |             |               |
 
+#### Examples
+
+- Buenos días
+
 ## Present Tense
 
 |                     | AR   | ER   | IR   |
 |---------------------|------|------|------|
 | Yo                  | o    | o    | o    |
-| El/Ella             | as   | es   | es   |
-| Tu/Usted            | a    | e    | e    |
+| El/Ella             | a    | e    | e    |
+| Tu/Usted            | as   | es   | es   |
 | Nosotros            | amos | emos | imos |
 | Vosotros            | áis  | éis  | ís   |
 | Ellos/Ellas/Ustedes | an   | en   | en   |
 
+ ## Phrases I've Picked Up
  
+ - _Disculpe_ - Excuse me!
+ - _Mucho gusto_ - Nice to meet you
