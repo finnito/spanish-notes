@@ -19,7 +19,7 @@ Masculine nouns typically end in
 
 #### Exceptions
 
-| Ending in o | Ending in e  | ending in z |
+| Ending in _o_ | Ending in _e_  | Ending in _z_ |
 |-------------|--------------|-------------|
 | la foto     | la llave     | la miel     |
 | la mano     | la calle     | la sal      |
@@ -45,6 +45,10 @@ Masculine nouns typically end in
 |             | la serpiente |             |
 |             | la torre     |             |
 
+#### Examples
+
+- Una calle
+
 ### Feminine Nouns
 
 Feminine nouns typically end in
@@ -55,7 +59,7 @@ Feminine nouns typically end in
 
 #### Exceptions
 
-| Ending in a  | Ending in d | Ending in z | Ending in ion |
+| Ending in _a_  | Ending in _d_ | Ending in _z_ | Ending in _ión_ |
 |--------------|-------------|-------------|---------------|
 | el drama     | el huésped  | el aprendiz | el ansión     |
 | el enigma    | el ataúd    | el cáliz    | el roción     |
@@ -100,3 +104,13 @@ Feminine nouns typically end in
  
  - _Disculpe_ - Excuse me!
  - _Mucho gusto_ - Nice to meet you
+ 
+## Words I've Picked Up
+
+- _La maleta_ - suitcase
+- _La reserva_ - reservation
+- _El boleto_ - ticket
+- _El pegamento_ - gluestick
+- _Las tijeras_ - scissors
+- _La pizarra_ - whiteboard
+
