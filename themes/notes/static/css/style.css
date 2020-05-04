@@ -37,10 +37,22 @@ th {
     padding: 0.25rem;
 }
 
+#TOCLink {
+    line-height: 0;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 @media (min-width: 600px) {
     body {
         max-width: 600px;
         margin: auto;
+    }
+    #TOCLink {
+        right: calc((100vw - 600px) / -2);
     }
 }
 
