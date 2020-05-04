@@ -52,7 +52,7 @@ th {
         margin: auto;
     }
     #TOCLink {
-        right: calc((100vw - 600px) / -2);
+        right: calc((100vw - 600px) / 2);
     }
 }
 
