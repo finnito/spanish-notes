@@ -5,6 +5,10 @@ lastmod: 2020-04-29T17:52:33+12:00
 description: I have spent six years learning Spanish - five at High School and one at university. All those notes are lost, so here is my attempt to make some new ones as I re-learn the language.
 ---
 
+## TODO List
+
+- [ ] Add list of exceptions to conjugations in the present tense
+
 ## Genders
 
 ### Masculine Nouns
