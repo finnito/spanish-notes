@@ -8,6 +8,7 @@ description: I have spent six years learning Spanish - five at High School and o
 ## TODO List
 
 - [ ] Add list of exceptions to conjugations in the present tense
+- [x] Add exceptions for noun genders
 
 ## Genders
 
